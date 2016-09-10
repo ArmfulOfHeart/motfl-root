@@ -1,0 +1,11 @@
+#game-frame {
+  display: flex;
+	width:1920px;
+	height:1080px;
+	position:relative;
+	background-color:$clrBackgrDark;
+	transform-origin:left top;
+}
+/*
+need to remove the background image properties, that goes in different component.
+*/

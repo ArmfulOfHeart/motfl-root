@@ -1,0 +1,41 @@
+#master-menu-container {
+	background-color: $clrBackgrBlackTrans;
+	width: 66px;
+	height: 100%;
+}
+
+.master-menu-li {
+
+	display:block;
+	list-style-type: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	margin:0px;
+
+}
+
+.master-menu-li:hover {
+	background-color: $clrSelectionHover;
+	cursor:pointer;
+
+}
+
+.master-menu-li > .master-menu-icon {
+	margin-left:5px;
+	margin-top:9px;
+	margin-bottom:9px;
+	width:85%;
+	height:85%;
+}
+
+.master-menu-li:hover > .master-menu-icon {
+	margin-left:0px;
+	margin-top:4px;
+	margin-bottom:4px;
+	width:100%;
+	height:100%;
+}
+.disabled-icon {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}

@@ -1,0 +1,103 @@
+/* @keyframes snow {
+	0% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+	100% {background-position: 0px 0px, 0px 0px, 0px 0px;}	
+
+}
+
+@-moz-keyframes snow {
+	0% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+	100% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+
+}
+
+@-webkit-keyframes snow {
+	0% {background-position: 500px 1000px, 400px 400px, 300px 300px; background-color:#6b92b9;}
+	50% {background-color:#b4cfe0;}
+	100% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+}
+
+@-ms-keyframes snow {
+	0% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+	100% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+
+} */
+
+
+.main-menu-wrapper {
+	display:flex;
+	flex-direction: column;
+	padding:5px;
+	height:100%;
+	width:100%;
+	
+/* 	background-image: url('img/menu/snow2.png'), url('img/menu/snow2.png'), url('img/menu/snow2.png');
+	-webkit-animation: snow 20s linear infinite;
+	-moz-animation: snow 20s linear infinite;
+	-ms-animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite; */
+}
+
+
+.main-menu-title-wrapper {
+	margin-left:41px;
+	margin-top:20px;
+	margin-bottom:6px;
+	width:100%;
+}
+
+.main-menu-title {
+	font-size:$tsHuge;
+	font-family: Fenix;
+	color:$clrLightTrans;
+
+}
+
+.main-menu-ul-wrapper{
+	background-image:url('/img/corner-art/main-menu-corner.png');
+	background-repeat:no-repeat;
+	background-position: top left;
+	flex:1;
+	padding-top:90px;
+	margin:5px;
+}
+
+.main-menu-ul {
+	list-style-type: none;
+    margin-left: 88px;
+    padding: 0;
+	
+}
+
+.main-menu-li {
+	
+}
+
+.main-menu-h3 {
+	padding-top:7px;
+	padding-bottom:7px;
+	display:block;
+	font-size:$tsSectTitle;
+	color:$clrLight;
+}
+
+.main-menu-h3:hover {
+	font-size:$tsMainMenuHover;
+	text-shadow: 0.0em 0.0em 0.4em $clrLight;
+	cursor:pointer;
+	padding-top:2px;
+	padding-bottom:3px;
+}
+
+.main-menu-h3-emphasize {
+	font-size:$tsMainMenuHover;
+	text-shadow: 0.0em 0.0em 0.2em $clrLight;
+	padding-top:8px;
+	padding-bottom:3px;
+}
+
+.main-menu-h3-emphasize:hover {
+	font-size:$tsPgTitle;
+	text-shadow: 0.0em 0.0em 0.4em $clrLight;
+	padding-top:1.5px;
+	padding-bottom:1px;
+}

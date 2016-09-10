@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Fenix);
+
+///////////Zeroing Out Default Formatting///////////
+////////////////////////////////////////////////////
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/*Utility
+*/
+@import '{}/imports/ui/scss/_variables.scss';
+@import '{}/imports/ui/scss/_styleZeroing.scss';
+
+/*Major Components
+*/
+@import '{}/imports/ui/scss/_game-frame.scss';
+@import '{}/imports/ui/scss/_master-menu.scss';
+@import '{}/imports/ui/scss/_main-menu.scss';
+
+body {
+	background-color: $clrBodyFill;
+	transform-origin: left top;
+	overflow:hidden;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color:$clrLightTrans;
+	margin:3px;
+}
+
+.center {
+	margin:auto;
+}
+
+.right {
+	position:absolute;
+	right:0;
+}
+
+#content-frame {
+	flex: 1;
+	overflow:hidden;
+}
